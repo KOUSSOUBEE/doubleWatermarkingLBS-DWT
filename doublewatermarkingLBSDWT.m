@@ -4,7 +4,7 @@
 
 clc;
 close all;
-A=imread('imag/im1.png'); % uint8
+A=imread('imag/im1.png'); % L'image est au format uint8
 [L,C]=size(A);
 [LL1,LH1,HL1,HH1] = dwt2(A,'haar'); % double 
 %figure, imshow(host), title('host');
